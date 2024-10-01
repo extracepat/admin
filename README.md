@@ -3,10 +3,10 @@
 apt update && apt upgrade -y
 ```
 ```
-git clone https://github.com/extracepat/Bot
+git clone https://github.com/extracepat/admin
 ```
 ```
-cd Bot
+cd admin
 ```
 ```
 screen -S Bot
