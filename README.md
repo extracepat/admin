@@ -9,7 +9,7 @@ git clone https://github.com/extracepat/admin
 cd admin
 ```
 ```
-screen -S Bot
+screen -S admin
 ```
 ```
 bash installnode.sh
