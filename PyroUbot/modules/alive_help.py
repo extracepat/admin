@@ -186,7 +186,7 @@ async def help_callback(client, callback_query):
         button = [[InlineKeyboardButton("⊲ ʙᴀᴄᴋ", callback_data="help_back")]]
         await callback_query.edit_message_text(
             text=text 
-            + '\n<blockquote><b>ᴅɪᴅɪɴᴜʙᴏᴛ-ᴘʀᴇᴍ ᴅᴇᴠ -<a href="tg://user?id=6845234638"> ᴅɪᴅɪɴᴜʙᴏᴛ-ᴘʀᴇᴍ</a> </b></blockquote>',
+            + '\n<blockquote><b>ʙᴏᴛ-ᴘʀᴇᴍ ᴅᴇᴠ -<a href="tg://user?id=6845234638"> ᴅɪᴅɪɴᴜʙᴏᴛ-ᴘʀᴇᴍ</a> </b></blockquote>',
             reply_markup=InlineKeyboardMarkup(button),
             disable_web_page_preview=True,
         )
