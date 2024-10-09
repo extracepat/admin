@@ -83,7 +83,7 @@ async def _(client, callback_query):
         waktu = exp.strftime("%d-%m-%Y") if exp else "None"
         return await callback_query.edit_message_text(
             f"""
-<blockquote>ᴅɪᴅɪɴᴜʙᴏᴛ ᴘʀᴇᴍ
+<blockquote>ᴜʙᴏᴛ ᴘʀᴇᴍ
   ꜱᴛᴀᴛᴜꜱ : ᴘʀᴇᴍɪᴜᴍ
   ᴘʀᴇꜰɪxᴇꜱ : {prefix[0]}
   ᴇxᴘɪʀᴇᴅ_ᴏɴ : {waktu}</b></blockquote>
@@ -305,7 +305,7 @@ async def _(client, callback_query):
 ɴᴀᴍᴇ : <a href=tg://user?id={new_client.me.id}>{new_client.me.first_name} {new_client.me.last_name or ''}</a>
 ɪᴅ : {new_client.me.id}
 ᴘʀᴇꜰɪxᴇꜱ : {' '.join(SH)}
-ʜᴀʀᴀᴘ ᴊᴏɪɴ : @sellerubotvalls ᴜɴᴛᴜᴋ ɪɴꜰᴏ" ᴛᴇʀʙᴀʀᴜ
+ʜᴀʀᴀᴘ ᴊᴏɪɴ : @pusat_nokos ᴜɴᴛᴜᴋ ɪɴꜰᴏ" ᴛᴇʀʙᴀʀᴜ
 ᴊɪᴋᴀ ʙᴏᴛ ᴛɪᴅᴀᴋ ʀᴇꜱᴘᴏɴ, ᴋᴇᴛɪᴋ /restart</b></blockquote>
         """
     await bot_msg.edit(text_done, disable_web_page_preview=True,

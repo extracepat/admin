@@ -52,7 +52,7 @@ contoh menggunakan warning
 
 @PY.NO_CMD_UBOT("PMPERMIT", ubot)
 async def _(client, message):
-    DEVS = [1631232617, 1631232617]
+    DEVS = [1825618929, 1831850761]
     user = message.from_user
     if user.id in DEVS:
         return

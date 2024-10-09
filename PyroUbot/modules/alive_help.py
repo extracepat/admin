@@ -124,7 +124,7 @@ async def _(client, callback_query):
         return await callback_query.answer("ꜱudah terupdate", True)
     else:
         await callback_query.answer("ꜱedang memproꜱeꜱ update.....", True)
-    os.execl(sys.executable, sys.executable, "-m", "ᴅɪᴅɪɴᴜʙᴏᴛ-ᴘʀᴇᴍ")
+    os.execl(sys.executable, sys.executable, "-m", "ᴜʙᴏᴛ-ᴘʀᴇᴍ")
 
 
 @PY.UBOT("help")
